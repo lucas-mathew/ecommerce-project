@@ -6,19 +6,19 @@
     <link rel="stylesheet" href="/styles.css">
     <title>Preline</title>
 </head>
-<body>
+<body class="overflow-x-hidde lg:overflow-scroll sm:w-310 w-screen">
 
 <!-- Navigation bar -->
 <nav class="flex items-center justify-between border-b border-gray-200 fixed top-0 bg-white px-5  z-50 left-0 right-0 w-full">
 
     <!-- Logo section -->
     <div class="flex items-center -space-x-10 relative">
-        <div>
-            <img src="./images/0_bQIenL1m5PPXK5eY.jpg" alt="Preline-logo" width="190" class="-ml-6 object-cover">
+        <div class="">
+            <img src="./images/0_bQIenL1m5PPXK5eY.jpg" alt="Preline-logo" width="190" class="-ml-6 object-cover sm:w-50 sm:visible invisible ">
         </div>
 
-        <div class="relative">
-            <div class="hover:bg-gray-300 p-2 rounded-lg">
+        <div class="relative -ml-36 sm:-m-1">
+            <div class="hover:bg-gray-300 p-2 rounded-lg ">
                 <i data-lucide="chevron-down" class="size-4 text-gray-900"></i>
             </div>
             <div class="size-2 bg-blue-700 rounded-full absolute top-0 right-0 animate-ping"></div> 
@@ -27,7 +27,7 @@
     </div>
 
     <!-- Menu -->
-    <div>
+    <div class="sm:visible md:visible  lg:visible   ">
         <ul class="flex gap-5 text-[13px] text-gray-950 h-15 pt-4 ">
               <li class="relative group">
                 <a href="" class="group-hover:border-b">Pages</a>
@@ -35,7 +35,7 @@
                 <div class="size-2 bg-blue-700 rounded-full absolute -mt-7 left-8"></div>
               
                 <!--Droapdown page-->
-                <div class="absolute flex w-full mt-6 -ml-123 pr-312 bg-white rounded-b-xl h-90 pl-10 shadow-black shadow-sm invisible group-hover:visible">
+                <div class="absolute flex w-full mt-6 -ml-124 pr-312 bg-white rounded-b-xl h-90 pl-10 shadow-black shadow-sm invisible group-hover:visible">
                     <ul class="flex flex-col gap-8 mt-6 ">
                         <li class="flex flex-col gap-2 ">
                             <p class="">Main page</p>
@@ -200,7 +200,7 @@
 </nav>
 
 <!-- Header -->
-<div class="bg-[url('/images/image9.avif')] bg-cover bg-center h-150 mt-22 mx-6 rounded-xl flex justify-between items-center p-4">
+<div class="bg-[url('/images/image9.avif')] bg-cover bg-center h-150 mt-22 sm:mx-6 rounded-xl flex justify-between items-center sm:my-24 w-310 overflow-x-hidden p-2  ">
 
     <div class="bg-white p-2 rounded-full hover:bg-gray-100 cursor-pointer">
         <i data-lucide="chevron-left" class="size-5"></i>
